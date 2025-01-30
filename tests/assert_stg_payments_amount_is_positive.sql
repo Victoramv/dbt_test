@@ -1,7 +1,7 @@
 with 
 
 payments as (
-    select * from {{ref('stg_payment')}}
+    select * from {{ref('stg_stripe__payments')}}
 
 )
 
