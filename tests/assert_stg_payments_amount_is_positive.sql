@@ -6,8 +6,8 @@ payments as (
 )
 
 select 
-    orderid,
+    oid,
     sum(amount) as total_amount
 from payments
-group by orderid
+group by id
 having total_amount < 0

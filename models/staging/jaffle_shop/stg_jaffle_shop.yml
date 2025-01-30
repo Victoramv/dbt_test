@@ -7,7 +7,6 @@ models:
         tests:
           - unique
           - not_null
-
   - name: stg_jaffle_shop__orders
     columns:
       - name: order_id
@@ -23,4 +22,3 @@ models:
                 - returned
                 - return_pending
                 - placed
-              
